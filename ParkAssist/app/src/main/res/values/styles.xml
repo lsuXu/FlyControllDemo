@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- 基本属性样式. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="loginingDlg" parent="@android:style/Theme.Dialog">
+        <!-- 设置窗口浮动 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置背景颜色 透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="loginFont">
+        <item name="android:padding">5dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:fontFamily">微软雅黑</item>
+    </style>
+
+</resources>
